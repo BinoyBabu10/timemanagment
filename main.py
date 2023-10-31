@@ -18,6 +18,8 @@ def reset_timer():
     canvas.itemconfig(timer_text,text="00:00")
     title_label.config(text="Timer")
     check_mark.config(text="")
+    global reps
+    reps=0
 # ---------------------------- TIMER MECHANISM ------------------------------- # 
 def start_timer():
     global reps
